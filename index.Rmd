@@ -1,0 +1,43 @@
+---
+title: "Daniela's Website"
+output: 
+html_document:
+css: bootstrap.min.css
+toc: true
+toc_float: true
+---
+
+
+<h1>Welcome!</h1>
+
+<img src="IMG_7914-removebg-preview.png" style="width:25%">
+
+<figure>
+  <blockquote class="blockquote">
+    <p class="mb-0">Don't be a parasite</p>
+  
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Daniela Rochez
+  </figcaption>
+</figure>
+
+<h2>Get to Know More About Me</h2>
+
+<div class="d-grid gap-2">
+  <button class="btn btn-lg btn-primary" type="button">[About Me](about-me.html)</button></div>
+  
+<h2>Ways To Connect with Me</h2>
+
+<button type="button" class="btn btn-link">[Instagram](https://www.instagram.com/danilovespublichealth/)</button>
+<button type="button" class="btn btn-link">[LinkedIn](https://www.linkedin.com/in/daniela-rochez-36621115b/)</button>
+<button type="button" class="btn btn-link">[GitHub](https://github.com/dr3168)</button>
+
+<button type="button" class="btn btn-link">[Email](form.html)</button>
+
+
+
+
+
+
+

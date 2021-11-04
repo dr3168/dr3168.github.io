@@ -1,0 +1,8 @@
+---
+title: "Resume"
+html_document:
+css: bootstrap.min.css
+---
+
+Here you can find my resume:
+![Resume](Daniela_Rochez_Resume_Copy-1.jpg){width=75%}

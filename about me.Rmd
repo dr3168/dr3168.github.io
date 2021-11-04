@@ -1,0 +1,16 @@
+---
+title: "About Me"
+output: 
+html_document:
+css: bootstrap.min.css
+toc: true
+toc_float: true
+---
+
+
+<img src="08BCD9D2-B376-49A7-BDFE-2806D311F1DA.jpg" style="width:25%">
+
+Hello,
+
+My name is Daniela Rochez and I am a student at Columbia University studying Epidemiology. I research interests lies in women's reproductive health justice.
+
