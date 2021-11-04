@@ -34,10 +34,3 @@ toc_float: true
 <button type="button" class="btn btn-link">[GitHub](https://github.com/dr3168)</button>
 
 <button type="button" class="btn btn-link">[Email](form.html)</button>
-
-
-
-
-
-
-
