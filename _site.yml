@@ -1,5 +1,16 @@
 name: "Yay internet!"
 output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about-me.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: newdash.html
 output:
 html_document:
 css: bootstrap.min.css
