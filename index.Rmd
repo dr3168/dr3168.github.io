@@ -35,4 +35,4 @@ toc_float: true
 
 <button type="button" class="btn btn-link">[Email](form.html)</button>
 
-<button type="button" class="btn btn-link">[Dashboard](dashboard.html)</button>
+<button type="button" class="btn btn-link">[Dashboard](newdash.html)</button>
