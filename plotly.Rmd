@@ -1,0 +1,57 @@
+---
+title: "plotly"
+output: html_document
+css: bootstrap.min.css
+toc: true
+toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+library(tidyverse)
+library(forcats)
+library(plotly)
+library(p8105.datasets)
+library(patchwork)
+```
+
+
+```{r}
+data("instacart")
+instacart
+```
+
+```{r}
+instacart=
+  instacart %>%
+  select(aisle, product_name, order_hour_of_day, 
+         department, order_dow) %>%   
+  filter(department=="produce") %>%
+  mutate(aisle= factor(aisle))
+
+instacart
+```
+
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
+```
+
+```{r}
+instacart %>% 
+  mutate(aisle= fct_reorder(aisle, order_hour_of_day))%>% 
+  plot_ly(x = ~aisle, y = ~order_hour_of_day, color = ~aisle, type = "box")
+```
+
+```{r}
+instacart %>% 
+  group_by(aisle, order_dow) %>% 
+  mutate(mean_order_hour= mean(order_hour_of_day)) %>% 
+  ungroup() %>% 
+  plot_ly(x = ~order_dow, y = ~mean_order_hour, color = ~aisle)%>%
+  add_lines()
+  
+```
+
